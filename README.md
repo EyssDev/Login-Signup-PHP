@@ -54,7 +54,7 @@ During registration, user must provide name and username, password, and password
 
 ### Login
 
-During login, the user must enter their email and password. The password is compared to the hashed value stored in the database using the `password_verify()` function. If the credentials are incorrect, an error message is displayed.
+During login, the user must enter their username and password. The password is compared to the hashed value stored in the database using the `password_verify()` function. If the credentials are incorrect, an error message is displayed.
 
 ### Password Hashing
 
